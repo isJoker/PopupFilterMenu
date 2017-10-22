@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PopupFilterMenu">
+
+        <attr name="underlineColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="textSelectedColor" format="color"/>
+        <attr name="textUnselectedColor" format="color"/>
+        <attr name="menuBackgroundColor" format="color"/>
+        <attr name="maskColor" format="color"/>
+        <attr name="menuTextSize" format="dimension"/>
+        <attr name="menuSelectedIcon" format="reference"/>
+        <attr name="menuUnselectedIcon" format="reference"/>
+        <attr name="menuMenuHeightPercent" format="float"/>
+    </declare-styleable>
+</resources>

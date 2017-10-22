@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/constellation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:numColumns="4"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/reset"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/reset_bg"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="重置"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/ok_bg"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="确定"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jokerwan.popupfiltermenu.popupmenu.PopupFilterMenu
+        android:id="@+id/popup_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menuTextSize="13sp"
+        app:textUnselectedColor="@color/drop_down_unselected"
+        app:textSelectedColor="@android:color/holo_red_dark"
+        app:dividerColor="@color/gray"
+        app:underlineColor="@color/gray"
+        app:menuMenuHeightPercent="0.5"
+        app:menuSelectedIcon="@mipmap/up_select"
+        app:maskColor="@color/mask_color"
+        app:menuBackgroundColor="@color/white"
+        app:menuUnselectedIcon="@mipmap/down_unselect"/>
+
+</LinearLayout>
+
