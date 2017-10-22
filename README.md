@@ -5,5 +5,5 @@
 效果图如下：
 
 
-![image](https://github.com/isJoker/PopupFilterMenu/tree/master/gif.muti_search.git)
+![image](https://github.com/isJoker/PopupFilterMenu/blob/master/gif/muti_search.gif)
 
