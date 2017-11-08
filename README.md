@@ -5,5 +5,9 @@
 效果图如下：
 
 
-![image](https://github.com/isJoker/PopupFilterMenu/blob/master/gif/muti_search.gif)
+![image](https://github.com/isJoker/RefreshRecyclerView/blob/master/gif/RefreshRecyclerView1.gif)
+
+
+![image](https://github.com/isJoker/RefreshRecyclerView/blob/master/gif/RefreshRecyclerView2.gif)
+
 
